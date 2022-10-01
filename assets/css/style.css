@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+  --red:#f53b57;
+}
+
 html, body {
   height: 100%;
 }
@@ -118,7 +122,10 @@ body {
   overflow-x: hidden;
   line-height: 22px;
 }
-
+*::selection{
+  background:var(--red);
+  color:#fff;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -604,6 +611,11 @@ div#preloader {
 .about-area {
   background-color: #f9f9f9;
 }
+.single-well:hover{
+  border-color: #171e1f;
+  background: #a6edf8;
+  color: #fff;
+}
 
 .single-well > a {
   display: block;
@@ -657,6 +669,8 @@ div#preloader {
   color: #333;
 }
 
+
+
 .single-services > h4 {
   color: #444;
   font-size: 24px;
@@ -702,7 +716,7 @@ div#preloader {
   transition: margin 0.2s;
 }
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+  background: rgba(0, 128, 102, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1054,12 +1068,21 @@ div#preloader {
   margin-bottom: 30px;
   color: #3ec1d5;
 }
+.single-icon i:hover{
+  border-color: #3EC1D5;
+  background: #3EC1D5;
+  color: #fff;
+}
 
 .single-icon p {
   font-size: 16px;
   line-height: 30px;
 }
-
+.single-icon p:hover{
+  border-color: #3EC1D5;
+  background: #3EC1D5;
+  color: #fff;
+}
 .contact-icon {
   margin-bottom: 40px;
 }
@@ -1264,7 +1287,18 @@ div#preloader {
   border: 1px solid #3EC1D5;
   color: #fff;
 }
+.single-blog img{
+  /* padding: 50px; */
+ 
+  transition: transform .2s; /* Animation */
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
 
+.single-blog img:hover{
+  transform: scale(1.2);
+}
 /*--------------------------------------------------------------
 # Blog page
 --------------------------------------------------------------*/
