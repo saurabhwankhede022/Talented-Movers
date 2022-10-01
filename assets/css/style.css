@@ -141,7 +141,7 @@ body {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #60ccdc;
+  background: #5cbe9a;
   color: #fff;
 }
 .back-to-top.active {
@@ -632,7 +632,7 @@ div#preloader {
   color: #444;
   display: inline-block;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 42px;
   margin-bottom: 20px;
 }
 
@@ -666,6 +666,9 @@ div#preloader {
 .single-services > p {
   color: #333;
   font-size: 14px;
+}
+.fa:hover {
+  opacity: 0.7;
 }
 
 /*--------------------------------------------------------------
