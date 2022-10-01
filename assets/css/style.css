@@ -249,10 +249,10 @@ div#preloader {
   font-weight: bold;
 }
 #header .logo h1 span {
-  color: #3ec1d5;
+  color: #d9e9eb;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: rgb(47, 241, 221);
   text-decoration: none;
 }
 #header .logo img {
@@ -357,7 +357,7 @@ div#preloader {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3ec1d5;
+  color: #6496f9;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -607,18 +607,21 @@ div#preloader {
 
 .single-well > a {
   display: block;
+  
 }
 
 .single-well ul li {
   color: #444;
   display: block;
   padding: 5px 0;
+  
 }
 
 .single-well ul li i {
   color: #3EC1D5;
   margin-right: 5px;
   font-size: 18px;
+  
 }
 
 .single-well p {
@@ -658,14 +661,15 @@ div#preloader {
 }
 
 .single-services > h4 {
-  color: #444;
+  color: rgb(17, 7, 7);
   font-size: 24px;
   font-weight: 500;
 }
 
 .single-services > p {
   color: #333;
-  font-size: 14px;
+  font-size: px;
+  text-align: center;
 }
 .fa:hover {
   opacity: 0.7;
@@ -684,6 +688,7 @@ div#preloader {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
+  
 }
 #team .member .member-info {
   opacity: 0;
@@ -736,7 +741,17 @@ div#preloader {
   font-size: 18px;
   margin: 0 2px;
 }
+#team .container .section-header h3{
+  color: #000;
+  font-size: 50px;
+  text-align: center;
 
+}
+#team .container .section-header  p{
+  margin-top: 30px;
+  color: #000;
+  font-size: 20px;
+}
 /*--------------------------------------------------------------
 # Review
 --------------------------------------------------------------*/
