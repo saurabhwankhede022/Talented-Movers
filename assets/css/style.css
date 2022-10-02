@@ -112,6 +112,15 @@ a:hover {
 a:active, a:hover {
   outline: 0 none;
 }
+body , title{
+    a:hover 
+  color: #3EC1D5;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline: 0 none;
+}
 
 body {
   background: #fff none repeat scroll 0 0;
